@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DaliyNews' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for DaliyNews
+
+  target 'DaliyNewsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DaliyNewsUITests' do
+    # Pods for testing
+  end
+pod 'Masonry'
+pod 'JSONModel'
+pod 'FMDB'
+pod 'SDWebImage'
+end

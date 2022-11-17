@@ -1,0 +1,6 @@
+framework module Pods_DaliyNews_DaliyNewsUITests {
+  umbrella header "Pods-DaliyNews-DaliyNewsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
